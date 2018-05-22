@@ -1,0 +1,2 @@
+sandy orange: #d5be93
+blue: #4d7290
