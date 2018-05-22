@@ -1,3 +1,8 @@
+@font-face {
+  font-family:"MyriadPro";
+  src: url("fonts/MyriadPro-Regular.otf");
+}
+
 ::-webkit-input-placeholder {
    text-align: center;
 }
@@ -57,4 +62,5 @@
 
 .header .right ul li a{
   text-decoration: none;
+  font-family:"MyriadPro";
 }
