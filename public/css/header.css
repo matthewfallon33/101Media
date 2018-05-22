@@ -1,5 +1,5 @@
 .header{
-  background:blue;
+  background:yellow;
   width:100%;
 }
 
@@ -17,4 +17,24 @@
 .header .right{
   width:80%;
   margin: 0 auto;
+}
+
+.right input[type="search"]{
+  width: 100%;
+  outline:none;
+  border-color: blue;
+}
+
+.header .right ul{
+  width:80%;
+  margin:0 auto;
+}
+
+
+.header .right ul li{
+  list-style-type: none;
+}
+
+.header .right ul li a{
+  text-decoration: none;
 }
