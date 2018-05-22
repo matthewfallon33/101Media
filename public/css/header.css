@@ -1,3 +1,19 @@
+::-webkit-input-placeholder {
+   text-align: center;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   text-align: center;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   text-align: center;
+}
+
+:-ms-input-placeholder {
+   text-align: center;
+}
+
 .header{
   background:yellow;
   width:100%;
@@ -11,7 +27,7 @@
 .header .left img{
   width:50%;
   margin:0 25%;
-  height: 50px;
+  height: 110px;
 }
 
 .header .right{
@@ -26,14 +42,18 @@
 }
 
 .header .right ul{
-  width:80%;
-  margin:0 auto;
+  width:100%;
+  margin:4% auto;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
 }
 
 
 .header .right ul li{
   list-style-type: none;
-}
+  text-align: center;
+  }
 
 .header .right ul li a{
   text-decoration: none;
