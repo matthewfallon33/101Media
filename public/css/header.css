@@ -1,0 +1,20 @@
+.header{
+  background:blue;
+  width:100%;
+}
+
+.header .left{
+  width:80%;
+  margin:0 auto;
+}
+
+.header .left img{
+  width:50%;
+  margin:0 25%;
+  height: 50px;
+}
+
+.header .right{
+  width:80%;
+  margin: 0 auto;
+}
