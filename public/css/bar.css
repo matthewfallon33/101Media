@@ -1,0 +1,12 @@
+.bar{
+  width: 100%;
+  background: #d5be93;
+}
+
+.bar h1{
+  text-align: center;
+  font-family: MyriadPro;
+  color: #4d7290;
+  letter-spacing: 5px;
+  margin: 3% 0;
+}

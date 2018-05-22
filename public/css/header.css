@@ -1,3 +1,10 @@
+@font-face {
+  font-family:MyriadPro;
+  src: url("../fonts/MyriadPro-Regular.otf");
+}
+
+
+
 ::-webkit-input-placeholder {
    text-align: center;
 }
@@ -15,7 +22,7 @@
 }
 
 .header{
-  background:yellow;
+  background:#d5be93;
   width:100%;
 }
 
@@ -38,7 +45,7 @@
 .right input[type="search"]{
   width: 100%;
   outline:none;
-  border-color: blue;
+  border-color: #4d7290;
 }
 
 .header .right ul{
@@ -53,8 +60,15 @@
 .header .right ul li{
   list-style-type: none;
   text-align: center;
+  background: #4d7290;
+  list-style-type: none;
+  padding: 0% 1.9%;
+  margin-bottom: 10px;
+  border-radius: 35px;
   }
 
 .header .right ul li a{
   text-decoration: none;
+  font-family:MyriadPro;
+  color: #d5be93;
 }
