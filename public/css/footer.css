@@ -1,0 +1,25 @@
+.footer{
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  background:#d5be93;
+}
+
+.footer ul{
+  width: 80%;
+  display: flex;
+  margin: 0 auto;
+}
+
+.footer ul li{
+  width: 25%;
+  list-style: none;
+}
+
+.footer ul li a {
+  width: 100%;
+  text-decoration: none;
+  font-family:MyriadPro;
+  color: #4d7290;
+  margin:7px 0;
+}
