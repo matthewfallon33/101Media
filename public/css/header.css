@@ -1,17 +1,8 @@
 @font-face {
-<<<<<<< HEAD
   font-family:MyriadPro;
   src: url("../fonts/MyriadPro-Regular.otf");
 }
 
-
-
-=======
-  font-family:"MyriadPro";
-  src: url("fonts/MyriadPro-Regular.otf");
-}
-
->>>>>>> fefa8547ca91d0388ca99ca568290822d4d26809
 ::-webkit-input-placeholder {
    text-align: center;
 }
@@ -76,10 +67,7 @@
 
 .header .right ul li a{
   text-decoration: none;
-<<<<<<< HEAD
   font-family:MyriadPro;
   color: #d5be93;
-=======
   font-family:"MyriadPro";
->>>>>>> fefa8547ca91d0388ca99ca568290822d4d26809
 }
