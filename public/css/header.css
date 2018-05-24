@@ -3,20 +3,33 @@
   src: url("../fonts/MyriadPro-Regular.otf");
 }
 
+@font-face {
+  font-family:MyriadProLight;
+  src: url("../fonts/myriadpro-light.otf");
+}
+
 ::-webkit-input-placeholder {
    text-align: center;
+   color: #4d7290;
+   font-size: 15px;
 }
 
 :-moz-placeholder { /* Firefox 18- */
    text-align: center;
+   color: #4d7290;
+   font-size: 15px;
 }
 
 ::-moz-placeholder {  /* Firefox 19+ */
    text-align: center;
+   color: #4d7290;
+   font-size: 15px;
 }
 
 :-ms-input-placeholder {
    text-align: center;
+   color: #4d7290;
+   font-size: 15px;
 }
 
 .header{
@@ -43,7 +56,10 @@
 .right input[type="search"]{
   width: 100%;
   outline:none;
-  border-color: #4d7290;
+  border: 3px solid #4d7290;
+  background: none;
+  border-radius: 26px;
+  padding 0.5% 0%;
 }
 
 .header .right ul{
