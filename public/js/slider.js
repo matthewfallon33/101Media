@@ -9,14 +9,15 @@ var caroLength = 3;
 carousel.addEventListener("click", (e) => {
   console.log("clikced");
   console.log("imgNum:" + imgNum);
-  if(imgNum > 3){
+  if(imgNum >= 3){
     console.log("Img num more than 3!");
     imgNum = 1;
     img.src = "img/carousel/img" + imgNum + ".jpg";
   }else {
       console.log("Img num within bounds");
-      img.src = "img/carousel/img" + imgNum + ".jpg";
       imgNum++;
+      img.src = "img/carousel/img" + imgNum + ".jpg";
+
   }
 
 });
