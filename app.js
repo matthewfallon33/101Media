@@ -11,4 +11,4 @@ app.get("/", (req, res) => {
 
 app.listen(process.env.PORT, () => {
   console.log("App running on port 3000");
-})
+});
