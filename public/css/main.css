@@ -1,4 +1,6 @@
 body{
   margin:0;
-  background: #4d7290
+  background: url(../img/Background.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
