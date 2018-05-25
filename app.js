@@ -9,6 +9,6 @@ app.get("/", (req, res) => {
   res.render("index");
 })
 
-app.listen(process.env.PORT, () => {
+app.listen(3000, () => {
   console.log("App running on port 3000");
 });
