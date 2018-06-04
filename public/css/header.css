@@ -43,9 +43,9 @@
 }
 
 .header .left img{
-  width:50%;
-  margin:0 25%;
-  height: 110px;
+  width: 150px;
+  height: 150px;
+  margin: 0 25%;
 }
 
 .header .right{
