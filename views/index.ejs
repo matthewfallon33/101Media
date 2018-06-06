@@ -23,6 +23,25 @@
     <h1>UP COMING</h1>
   </div>
   <%- include partials/footer.ejs %>
-  <script src="js/slider.js"></script>
+  <script src="js/slider.js">
+  </script>
+  <script>
+    window.fbAsyncInit = function() {
+      FB.init({
+        appId            : '377647749392610',
+        autoLogAppEvents : true,
+        xfbml            : true,
+        version          : 'v3.0'
+      });
+    };
+// me/feed gets the newsfeed
+    (function(d, s, id){
+       var js, fjs = d.getElementsByTagName(s)[0];
+       if (d.getElementById(id)) {return;}
+       js = d.createElement(s); js.id = id;
+       js.src = "https://connect.facebook.net/en_US/sdk.js";
+       fjs.parentNode.insertBefore(js, fjs);
+     }(document, 'script', 'facebook-jssdk'));
+  </script>
 </body>
 </html>
