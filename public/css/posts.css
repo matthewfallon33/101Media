@@ -1,0 +1,23 @@
+.posts{
+  width:80%;
+  margin:0 10%;
+  text-align: center;
+}
+
+.posts h1{
+  text-align: center;
+  color: white;
+  font-family: MyriadProLight;
+}
+
+.posts h2{
+  color: white;
+  font-family: MyriadProLight;
+  text-align: center;
+}
+
+.posts i{
+  text-align: center;
+  color: black;
+  font-family: MyriadProLight;
+}

@@ -1,0 +1,15 @@
+<div class="posts">
+
+  <h1>My Latest Facebook Posts</h1>
+
+  <% if(posts){ %>
+    <% for(i = 0; i < posts.length; i++){ %>
+      <h2><%= posts[i].message %></h1>
+      <i><%= posts[i].created_time %></i>
+      <hr>
+    <% } %>
+  <% } else{ %>
+    <p>No posts</p>
+  <% } %>
+
+</div>

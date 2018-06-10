@@ -4,7 +4,7 @@
   "description": "Source Code for 101 Media Website",
   "main": "app.js",
   "scripts": {
-    "start":"nodemon app.js",
+    "start": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,7 +18,9 @@
   },
   "homepage": "https://github.com/matthewfallon33/101Media#readme",
   "dependencies": {
+    "dotenv": "^6.0.0",
     "ejs": "^2.6.1",
-    "express": "^4.16.3"
+    "express": "^4.16.3",
+    "fbgraph": "^1.4.4"
   }
 }
