@@ -2,14 +2,15 @@
 
   <h1>My Latest Facebook Posts</h1>
 
-  <% if(posts){ %>
-    <% for(i = 0; i < posts.length; i++){ %>
-      <h2><%= posts[i].message %></h1>
-      <i><%= posts[i].created_time %></i>
-      <hr>
+    <% if (typeof posts == 'object' && posts) { %>
+      <% for(i = 0; i < posts.length; i++){ %>
+        <h2><%= posts[i].message %></h1>
+        <i><%= posts[i].created_time %></i>
+        <hr>
+      <% } %>
+    <% } else{ %>
+      <% if(typeof err == typeof "" && err){ %>
+        <h5 style="color:white; text-align:center; font-family:MyriadProLight;"><%= err %></h5>
+      <% } %>
     <% } %>
-  <% } else{ %>
-    <p>No posts</p>
-  <% } %>
-
 </div>
