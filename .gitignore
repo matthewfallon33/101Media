@@ -1,4 +1,4 @@
-.env
+env
 npm-debug.log
 package.json
 package-lock.json
