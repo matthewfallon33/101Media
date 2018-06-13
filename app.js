@@ -8,18 +8,24 @@ app.set("view engine", "ejs");
 app.use(express.static(__dirname + '/public'));
 
 app.get("/", (req, res) => {
-  // try get extended token use temp for meantime
   let posts = [];
   graph.setAccessToken(process.env.APP_TOKEN);
-  graph.get("/me/posts", {limit: 5, access_token: process.env.APP_TOKEN}, function(err, response) {
+  graph.get("/me/posts", {access_token: process.env.APP_TOKEN}, function(err, response) {
     if(response.data){
       for (var i = 0; i < response.data.length; i++) {
-            if(response.data[i].message !== undefined || response.data[i].message !== undefined){
+            if(response.data[i].message !== undefined){
+              if(posts.length > 0){
+                break;
+              }
+            var postDate = new Date(response.data[i].created_time).toDateString();
+            response.data[i].created_time = postDate;
             posts.push(response.data[i]);
-        }
+          }
       }
+
       res.render("index", {posts: posts});
     }else{
+      console.log(err);
       res.render("index", {err:"No Posts here :("});
     }
   });

@@ -5,7 +5,8 @@
     <% if (typeof posts == 'object' && posts) { %>
       <% for(i = 0; i < posts.length; i++){ %>
         <h2><%= posts[i].message %></h1>
-        <i><%= posts[i].created_time %></i>
+        <i class="date"><%= posts[i].created_time %></i>
+        <!-- get fb posts href setup -->
         <hr>
       <% } %>
     <% } else{ %>
